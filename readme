@@ -1,0 +1,11 @@
+<!-- To store embedding there is two ways :
+    api:- 1. /embed?type=userInput {provide text in body like {text:something}}
+          2. /embed?type=test {to store the prestored csv text embedding}
+
+     - first is you can store the embedding by providing comma separated text by the api (example:- Dog is a animal,Cats are cute,etc)
+
+     - second way is you can just call the api and there is prestore csv file in the backend repo it will auto store the embedding by taking text from there
+
+
+To search through embedding from api :
+     api:- /search?q=Cats -->
